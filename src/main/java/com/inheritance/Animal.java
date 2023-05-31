@@ -37,6 +37,17 @@ public class Animal {
     }
 
     public void setNoOfLegs(int noOfLegs) {
+
         this.noOfLegs = noOfLegs;
+
+    }
+
+    @Override
+    public String toString() {
+        return "com.inheritance.Animal{" +
+                "vegetarian=" + vegetarian +
+                ", eats='" + eats + '\'' +
+                ", noOfLegs=" + noOfLegs +
+                '}';
     }
 }
