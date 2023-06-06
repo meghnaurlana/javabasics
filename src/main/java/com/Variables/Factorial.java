@@ -11,6 +11,6 @@ public class Factorial {
         for (int i = 1; i <= x; i++) {
             num = num * i;
         }
-        System.out.println("The factorial of given number " + num + " : ");
+        System.out.println("The factorial of given number " + x + " : " + num);
     }
 }
